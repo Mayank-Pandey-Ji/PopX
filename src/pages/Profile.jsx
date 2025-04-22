@@ -1,7 +1,10 @@
 import React from "react";
 import { Camera } from "lucide-react";
+import { FaArrowDown } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen flex justify-center items-center bg-gray-50">
       <div className="w-[350px] rounded-lg shadow-lg min-h-[650px] bg-gray-100">
@@ -35,9 +38,13 @@ const Profile = () => {
           </p>
         </div>
 
-        <div className="px-6 py-4 flex-1">
+        <div className="px-6 py-4 flex flex-col items-center justify-center">
+          <h3 className="text-3xl text-gray-700 font-bold">Click below to Chat</h3>
+          <FaArrowDown className="text-3xl text-gray-600" />
+          <button onClick={()=> navigate('/chat')} className="bg-[#6c25ff] p-2 rounded-full px-4 cursor-pointer">CLick Here</button>
         </div>
       </div>
+      
     </div>
   );
 };
