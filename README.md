@@ -38,11 +38,11 @@ The application consists of five main pages:
 ## Project Structure\
 
 /src /pages - Landing.jsx
-# Landing/welcome page - Login.jsx
-# User login component - Signup.jsx
-# User registration component - Profile.jsx
-# User profile component - Chat.jsx
-# CometChat messaging page /CometChat - context/ - styles/ - utils/ App.jsx
+-> Landing/welcome page - Login.jsx
+-> User login component - Signup.jsx
+-> User registration component - Profile.jsx
+-> User profile component - Chat.jsx
+-> CometChat messaging page /CometChat - context/ - styles/ - utils/ App.jsx
 
 
 ## Technologies Used
