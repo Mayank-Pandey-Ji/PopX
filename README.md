@@ -56,7 +56,7 @@ The application consists of five main pages:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/popx-app.git
+git clone https://github.com/Mayank-pandey-ji/popx-app.git
 cd popx-app
 npm install
 npm start
